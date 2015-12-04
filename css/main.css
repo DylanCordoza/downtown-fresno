@@ -1,0 +1,522 @@
+ /*
+ =====================================
+ Global Styles
+ =====================================
+ */
+ 
+ /** {color:#007A29;} <---- BE CAREFUL USING THIS GLOBAL SELECTOR */
+ 
+ html, body {
+     height:100%;
+ }
+
+
+ body {
+     margin:0px;
+     padding:0px;
+     background-color:#FFFFFF;
+     font-family:'Source Sans Pro', Helvetica, sans-serif;
+     font-size:16px;
+     font-weight:500;
+     color:#000000;
+ }
+ 
+ @media screen an(max-width: 600px) {
+
+    body {background-color:#000000;}
+    h1 {color:#0000FF;}
+}
+ 
+ h1, h2, h3 {
+     margin:0px;
+     padding:0px;
+     color:#007A29;
+ }
+ 
+ h1 {
+     font-size:3em;
+     /*background-color:pink;*/
+ }
+ 
+ p {
+     margin:15px 0px;
+     line-height:17px;
+ }
+ 
+ b, strong {
+     color:#007A29;
+ }
+ 
+ a {
+    color:#007A29;
+    text-decoration:none;
+ }
+ 
+ a:hover {
+     color:#19A347;
+     text-decoration:underline;
+     cursor:url(../images/linkDance.ani), auto;
+ }
+ 
+ figure {
+     margin:0px;
+     padding:0px;
+ }
+ 
+ hr {
+     margin:20px 0px;
+ }
+
+ /*
+ =====================================
+ Header Styles
+ =====================================
+ */
+ 
+ header {
+     background-color:#66C285;
+     /*height:150px;*/
+     box-shadow:0px 5px 5px #000000;
+ }
+ 
+ #header {
+     padding:15px 0px;
+     position:relative;
+ }
+ 
+ #logo {
+     padding:15px;
+     color:#19A347;
+ }
+ 
+ #logo:hover {
+     color:#007A29;
+     text-decoration:none;
+ }
+ 
+ /*
+ =====================================
+ Nav Styles
+ =====================================
+ */
+ 
+ #menu {
+     position:absolute;
+     top:40px;
+     right:5%;
+ }
+ 
+ /*#menu ul {*/
+ /*    display:inline-block;*/
+ /*    background-color:blue;*/
+ /*}*/
+ 
+ #menu li {
+     /*background-color:pink;*/
+     display:inline;
+     margin:0px 10px;
+     font-weight:600;
+     text-transform:uppercase;
+     text-align:center;
+ }
+ 
+ #menu li:hover {
+     
+ }
+ 
+ #menu li:after {
+     content:"|";
+     padding:16px 20px;
+     color:rgb(0, 122, 41);
+ }
+ 
+.currentPage a {
+    color:#19A347;
+}
+
+/*
+ =====================================
+ Banner Styles
+ =====================================
+ */
+
+#bannerHome {
+    background-color:#66C285;
+    border-bottom: 3px solid #007A29;
+    border-top: 3px solid #007A29;
+    padding:50px 0px;
+    background:url(../images/bannerBack.jpg) no-repeat center center #19A347;
+    background-size:cover;
+    overflow:hidden;
+    margin-top:5px;
+}
+
+#bannerAbout {
+    /*border-top: 3px solid #007A29;*/
+    background-color:#66C285;
+    border-bottom: 3px solid #007A29;
+    padding:50px 0px;
+    background:url(../images/banner-about.jpg) no-repeat center center #19A347;
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerGallery {
+    /*border-top: 3px solid #007A29;*/
+    background-color:#66C285;
+    border-bottom: 3px solid #007A29;
+    padding:50px 0px;
+    background:url(../images/banner-gallery.jpg) no-repeat center center #19A347;
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerContact {
+    /*border-top: 3px solid #007A29;*/
+    background-color:#66C285;
+    border-bottom: 3px solid #007A29;
+    padding:50px 0px;
+    background:url(../images/bannerContact.jpg) no-repeat center center #19A347;
+    background-size:cover;
+    overflow:hidden;
+}
+
+#bannerTyping {
+    background-color:#66C285;
+    border-bottom: 3px solid #007A29;
+    border-top: 3px solid #007A29;
+    padding:50px 0px;
+    background:url(../images/bannerBackT.jpg) no-repeat center center #19A347;
+    background-size:cover;
+    overflow:hidden;
+    margin-top:5px;
+}
+
+.bannerTitle {
+    text-align:center;
+    color:#545454;
+    font-size:4em;
+    text-shadow:5px 5px 5px #000000;
+}
+
+div .button {
+   margin:0px auto;
+}
+ /*
+ =====================================
+ Likes Styles
+ =====================================
+ */
+ 
+ .mainWidth {
+     width:1200px;
+     margin:0px auto;
+     overflow:hidden;
+ }
+ 
+ #main {
+     margin-bottom:25px;
+ }
+ 
+.columnA, .columnB, .columnC {
+    width:384px;
+    background-color:#66C285;
+    margin:5px;
+    float:left;
+    border-radius:6px;
+    padding:3px;
+}
+ 
+/*.columnA, .columnB {*/
+/*    float:left;*/
+/*    margin-right:8px;*/
+/*} */
+ 
+/* .columnC {*/
+/*     float:right;*/
+/* }*/
+ 
+.columnA h2, .columnB h2, .columnC h2 {
+    color:#007A29;
+    font-size:2.5em;
+    font-weight:22;
+    text-transform:none;
+    text-align:center;
+}
+
+.columnA p, .columnB p, .columnC p {
+    text-align:justify;
+    padding-bottom:0px;
+    
+}
+
+.likeImage { temporary style until we have an image
+    /*width:384px;*/
+    /*height:225px;*/
+    background-color:#66C285;
+    border-radius:6px;
+}
+
+.likeImage span{
+    display:block;
+    background-color:#19A347;
+    color:#FFFFFF;
+    /*text-transform:uppercase;*/
+    font-weight:12;
+    font-size:2.2em;
+    text-align:center;
+    padding:18px 0px;
+}
+
+
+ /*
+ =====================================
+ Button Styles
+ =====================================
+ */
+ 
+ a.button, .button {
+     border-radius:5px 10px;
+     background-color:#1fcf5b;
+     -webkit-border-radius:6px;
+     -moz-border-radius:6px;
+     -o-border-radius:6px;
+     padding:5px 10px;
+     color:#FFFFFF;
+     border:3px solid #007A29;
+     font-weight:12;
+     font-size:1.7em !important;
+     float:left;
+     position:relative;
+ }
+ 
+ a.button:hover, .button:hover {
+     color:#FFFFFF;
+     background-color:#55e687;
+     text-decoration:none;
+     /*cursor:url(../images/goku.png), auto;*/
+ }
+ 
+ #bannerButton {
+     width:150px;
+     margin:30px auto 0px;
+     /*background-color:pink;*/
+ }
+ /*
+ =====================================
+ About Styles
+ =====================================
+ */
+ 
+ .alignLeft {
+     float:left;
+     margin-right:24px;
+     width:384px;
+     /*background-color:pink;*/
+ }
+ 
+ .alignRight {
+     float:right;
+     margin-right:8px;
+     width:775px;
+     text-align:justify;
+ }
+ 
+ #miniBio {
+     background-color:#66C285;
+     padding:9px;
+     border-radius:8px;
+ }
+ 
+ /*
+ =====================================
+ Footer Styles
+ =====================================
+ */
+
+footer {
+    background-color:#66C285;
+    clear:both;
+    height:50px;
+    margin-top:20px;
+}
+
+footer p {
+    text-align:center;
+    font-size:18px;
+}
+
+.copyright {
+    overflow:hidden;
+    padding:30px 0px;
+    border-top:3px dotted ;
+    background-color:#66C285;
+}
+
+.social {
+   text-align:center; 
+}
+
+footer p a {
+    color:#19A347;
+}
+
+footer p a:hover {
+    color:#007A29;
+    text-decoration:none;
+}
+
+ /*
+ =====================================
+ Table Styles
+ =====================================
+ */
+
+table {
+    border-radius:6px;
+    background-color:#52FF8C;
+    /*padding:5px;*/
+}
+
+table tbody tr td {
+    font-size:20px;
+    text-align:center;
+    padding:3px;
+}
+
+table tfoot tr td {
+    font-size:20px;
+    text-align:center;
+    padding:3px;
+}
+
+#myData {
+    margin:0px auto;
+    width:700px;
+}
+
+#groupData {
+    margin:0px auto;
+    width:700px;
+}
+
+thead {
+   
+}
+
+thead tr th {
+    background-color:#66C285;
+    color:#FFFFFF;
+    text-shadow:5px 2px 5px #000000;
+    padding:5px 0px;
+    font-size:1.2em;
+}
+
+tr th {
+    background-color:#C9C9C9;
+}
+
+.grey {
+    background-color:#77FFA4;
+}
+
+.black {
+    background-color:#2DFF73;
+}
+
+#roundLeft {
+    border-radius:6px 0px 0px 0px;
+}
+
+#roundRight {
+    border-radius:0px 6px 0px 0px;
+}
+
+#roundLeftB {
+    border-radius:0px 0px 0px 6px;
+}
+
+#roundRightB {
+    border-radius:0px 0px 6px 0px;
+}
+
+tfoot th {
+    color:#000000;
+}
+
+tfoot tr {
+    background-color:#4D4DFF;
+    color:#FFFFFF;
+}
+
+tr:hover {
+    background-color:#E5FFEE;
+    color:#000000;
+}
+
+ /*
+ =====================================
+ Forms Styles
+ =====================================
+ */
+ 
+ .asterisk {
+     color:#FF0000;
+     font-weight:900;
+ }
+ 
+ form {
+     background-color:pink;
+     padding:15px;
+     border-radius:5px;
+     margin-top:14px;
+     margin-bottom:4px;
+     width:255px;
+     /*box-shadow:4px 4px 4px;*/
+     /*border:2px solid #000000;*/
+ }
+ 
+ 
+ input, textarea {
+     border-radius:25px;
+     padding:3px; 
+     border:2px solid ;
+     box-shadow:2px 2px 2px #808080 inset;
+     display:block;
+     margin:3px;
+ }
+ 
+ textarea {
+     height:150px;
+     width:;
+ }
+ 
+ fieldset {
+     background-color:blue;
+ }
+ 
+ /*
+ =====================================
+ Extra Styles
+ =====================================
+ */
+ 
+ .fa {
+     background-color:#66c285;
+     border:3px solid #FFF;
+     font-size:2em;
+     /*margin:15px;*/
+     color:#FFF;
+     height:17px;
+     width:18px;
+     padding:10px;
+     border-radius:100%;
+     
+ }
+
+.fa:hover {
+    background-color:#8ad1a2;
+}
+
+.fa-linkedin {background-color:#0077B5;}
+ 
