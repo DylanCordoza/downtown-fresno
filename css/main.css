@@ -6,6 +6,8 @@
  
  /** {color:#007A29;} <---- BE CAREFUL USING THIS GLOBAL SELECTOR */
  
+ @import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans+Condensed:300,700,300italic|Raleway:400,100,200,300,500,600,700,900,800|Roboto+Slab:400,100,300,700|Indie+Flower|Yanone+Kaffeesatz:400,200,300,700|Lobster|Oxygen:400,300,700);
+ 
  html, body {
      height:100%;
  }
@@ -21,16 +23,17 @@
      color:#000000;
  }
  
- @media screen an(max-width: 600px) {
+/* @media screen an(max-width: 600px) {*/
 
-    body {background-color:#000000;}
-    h1 {color:#0000FF;}
-}
+/*    body {background-color:#000000;}*/
+/*    h1 {color:#0000FF;}*/
+/*}*/
  
  h1, h2, h3 {
      margin:0px;
      padding:0px;
      color:#007A29;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
  }
  
  h1 {
@@ -250,7 +253,7 @@ div .button {
     
 }
 
-.likeImage { temporary style until we have an image
+.likeImage { /*temporary style until we have an image*/
     /*width:384px;*/
     /*height:225px;*/
     background-color:#66C285;
@@ -520,3 +523,27 @@ tr:hover {
 
 .fa-linkedin {background-color:#0077B5;}
  
+ 
+   /*TABLET SCREENS */
+@media screen and (max-width:1024px) {
+    .columnA, .columnB, .columnC {
+        width:auto;
+        margin:1% auto;
+        clear:both;
+        padding:6px;
+        
+    }
+    .likeImage {
+        width:380px;
+        margin:0px auto;
+    }
+    /*.button {*/
+    /*    width:px;*/
+    /*    margin:30px auto 0px;*/
+    /* }*/
+    .mainWidth {
+        width:100%;
+        margin:20px auto;
+        /*padding:20px;*/
+    }
+}

@@ -51,7 +51,7 @@ body {
     }
     #box1, #box2, #box3 {
         width:auto;
-        margin:1% auto;
+        margin:0px auto 20px auto;
     }
     h3 {
         font-size:2em;
@@ -70,8 +70,8 @@ body {
         width:90%;
     }
     #mainBody {
-        width:auto;
-        margin:20px auto;
+        width:100%;
+        margin:0px auto;
     }
 }
 

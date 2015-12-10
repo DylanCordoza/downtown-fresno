@@ -4,13 +4,15 @@
     <head>
         <title>Dylan</title>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/mobile-menu.css" type="text/css" />
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <!--<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans+Condensed:300,700,300italic|Raleway:400,100,200,300,500,600,700,900,800|Roboto+Slab:400,100,300,700|Indie+Flower|Yanone+Kaffeesatz:400,200,300,700|Lobster|Oxygen:400,300,700' rel='stylesheet' type='text/css'>-->
         
         <meta charset="UTF-8"/>
         <meta name="description" content="Website about Dylan Cordoza"/>
         <meta name="keywords" content="Dylan,Cordoza"/>
         <meta name="author" content="Dylan Cordoza"/>
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
     </head>
     <body>
         <header>
@@ -20,8 +22,10 @@
                     
                     <h1><a href="index.html" id="logo">Logo</a></h1>
                 </figure>
-                <nav id="menu">
-			        <ul>
+                <nav id="menu" class="mobile">
+                	<!--<a href=""></a>-->
+                	<input type="checkbox" id="nav"/><label for="nav">Menu</label>
+			        <ul id="mobileMenu">
 				        <li class="currentPage"><a href="index.html" title="Home Page">Home</a></li>
 				        <li><a href="about.html" title="About Page">About</a></li>
 				        <li><a href="typing.html" title="Typing Page">Typing</a></li>
