@@ -3,16 +3,16 @@
 <html>
     <head>
         <title>Dylan</title>
-        <link href="css/main.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/mobile-menu.css" type="text/css" />
-        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
-        <!--<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans+Condensed:300,700,300italic|Raleway:400,100,200,300,500,600,700,900,800|Roboto+Slab:400,100,300,700|Indie+Flower|Yanone+Kaffeesatz:400,200,300,700|Lobster|Oxygen:400,300,700' rel='stylesheet' type='text/css'>-->
-        
         <meta charset="UTF-8"/>
         <meta name="description" content="Website about Dylan Cordoza"/>
         <meta name="keywords" content="Dylan,Cordoza"/>
         <meta name="author" content="Dylan Cordoza"/>
         <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+        
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/mobile-menu.css" type="text/css" />
+        <!--<link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Open+Sans+Condensed:300,700,300italic|Raleway:400,100,200,300,500,600,700,900,800|Roboto+Slab:400,100,300,700|Indie+Flower|Yanone+Kaffeesatz:400,200,300,700|Lobster|Oxygen:400,300,700' rel='stylesheet' type='text/css'>-->
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header>
@@ -38,7 +38,7 @@
         <div id="bannerHome">
             <h1 class="bannerTitle">Home</h1>
             <div id="bannerButton">
-            	<a href="about.html" title="click here to learn more" class="button">Full Bio</a>
+            	<a href="about.html" title="click here to learn more" class="button" id>Full Bio</a>
             </div>
         </div> <!--   id="bannerHome"   -->
 		<section class="mainWidth" id="main">
@@ -84,10 +84,10 @@
 		<!--<hr />-->
 		
 		<section class="mainWidth" id="miniBio">
-		    <aside class="alignLeft">
-		        <figure><img src="images/me.jpg" title="picture of me" alt="me"/></figure>
+		    <aside class="alignLeft mobileAside">
+		        <figure><img src="images/me.jpg" title="picture of me" alt="me" class="mepic"/></figure>
             </aside>
-		    <article class="alignRight">
+		    <article class="alignRight mobileAbout">
 		        <h2>About Me</h2>
 		        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
 		        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
@@ -134,7 +134,7 @@
 		</section>
 		<footer class="copyright">
 		    <div class="social">
-		        <a href="" target="_blank" title=""><i class="fa fa-linkedin"></i></a>
+		        <a href="https://www.linkedin.com/in/dylancordoza" target="_blank" title=""><i class="fa fa-linkedin"></i></a>
 		    </div>
 		    <p>&copy; 2015 Dylan Cordoza. All rights reserved. | Site by: <a href="https://www.linkedin.com/in/dylancordoza" target="_blank" title="view my Linkedin profile">Dylan Cordoza</a></p>
 		</footer>
