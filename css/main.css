@@ -62,7 +62,7 @@
  }
  
  figure {
-     margin:0px;
+     /*margin:0px;*/
      padding:0px;
  }
  
@@ -205,6 +205,7 @@
 div .button {
    margin:0px auto;
 }
+
  /*
  =====================================
  Likes Styles
@@ -496,6 +497,32 @@ tr:hover {
  fieldset {
      background-color:blue;
  }
+
+ /*
+ =====================================
+Gallery Styles
+ =====================================
+ */
+ 
+ 
+.galImage {
+    width:280px;
+    margin:3px;
+    float:left;
+    /*padding:1px;*/
+    background-color:#66C285;
+    /*display:block;*/
+    /*text-align:justify;*/
+}
+
+.galImage1 {
+    
+}
+
+.figNewton {
+    
+}
+ 
  
  /*
  =====================================
