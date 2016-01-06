@@ -105,7 +105,7 @@
  
  #menu {
      position:absolute;
-     top:40px;
+     top:44px;
      right:5%;
  }
  
@@ -128,8 +128,8 @@
  }
  
  #menu li:after {
-     content:"|";
-     padding:16px 20px;
+     content:" | ";
+     paddin/g:16px 20px;
      color:rgb(0, 122, 41);
  }
  
@@ -208,7 +208,7 @@ div .button {
 
  /*
  =====================================
- Likes Styles
+ Body Styles
  =====================================
  */
  
@@ -222,55 +222,16 @@ div .button {
      margin-bottom:25px;
  }
  
-.columnA, .columnB, .columnC {
-    width:384px;
+#bodyText {
+    width:950px;
     background-color:#66C285;
-    margin:5px;
-    float:left;
+    margin-top:10px;
+    /*float:left;*/
     border-radius:6px;
     padding:3px;
 }
  
-/*.columnA, .columnB {*/
-/*    float:left;*/
-/*    margin-right:8px;*/
-/*} */
- 
-/* .columnC {*/
-/*     float:right;*/
-/* }*/
- 
-.columnA h2, .columnB h2, .columnC h2 {
-    color:#007A29;
-    font-size:2.5em;
-    font-weight:22;
-    text-transform:none;
-    text-align:center;
-}
 
-.columnA p, .columnB p, .columnC p {
-    text-align:justify;
-    padding-bottom:0px;
-    
-}
-
-.likeImage { /*temporary style until we have an image*/
-    /*width:384px;*/
-    /*height:225px;*/
-    background-color:#66C285;
-    border-radius:6px;
-}
-
-.likeImage span{
-    display:block;
-    background-color:#19A347;
-    color:#FFFFFF;
-    /*text-transform:uppercase;*/
-    font-weight:12;
-    font-size:2.2em;
-    text-align:center;
-    padding:18px 0px;
-}
 
 
  /*
@@ -283,7 +244,7 @@ div .button {
      border-radius:6px;
      background-color:#1fcf5b;
      -webkit-border-radius:6px;
-     -moz-border-radius:6px;
+     moz-border-radius:6px;
      -o-border-radius:6px;
      padding:5px 10px;
      color:#FFFFFF;
@@ -322,7 +283,7 @@ div .button {
      float:right;
      margin-right:8px;
      width:775px;
-     text-align:justify;
+     -text-align:justify;
  }
  
  #miniBio {
